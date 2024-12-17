@@ -38,11 +38,7 @@ class ProductController extends Controller
 
             ], 422);
         }
-        // $request->validate([
-        //     'name'=> 'required|string|max:255',
-        //     'description'=> 'required|string',
-        //     'price'=> 'required|integer',
-        // ]);
+      
 
         $productsAdded = Product::create([
             'name' => $request->name,

@@ -23,5 +23,13 @@ class ProductResource extends JsonResource
             'created_at'=> $this->created_at,
 
         ];
+        // return [
+        //     'id'=> $this->id,
+        //     'name' => $this->name,
+        //     'description'=> $this->description,
+        //     'price'=> $this->price,
+        //     'created_at'=> $this->created_at,
+
+        // ];
     }
 }
